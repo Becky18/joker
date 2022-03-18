@@ -1,0 +1,24 @@
+label{
+    margin-top:15px ;
+    font-size :32px;
+    background-color: rgb(2, 238, 255);
+    padding:5px;
+    border-radius: 10px;
+}
+
+.btn-info:hover{
+background-color: rgb(184, 85, 255);
+border-radius: 10px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
